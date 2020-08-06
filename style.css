@@ -163,7 +163,9 @@ padding:2%;
   margin-bottom: 5%;
 }
 
-
+#h1_center {
+  text-align: center;
+}
 
 
 /* Media Queries */
@@ -244,6 +246,7 @@ padding:2%;
 
 }
 
+/* small screens */
 @media (max-width: 770px) {
 
   #visualizations {
@@ -290,16 +293,14 @@ padding:2%;
 }
 }
 
-
-@media (max-width: 560px) {
+/* extra small screens */
+@media (max-width: 555px) {
   
-
 .image-4 {
   position: relative;
   left: 117px;
-  top: 0px;
+  top: 10px;
   height: 75px;
-
-  
 }
+
 }
