@@ -1,0 +1,305 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+
+
+ /* Adding customizations */
+ 
+.image_shrink {
+  height: 200px;
+ 
+}
+ #weather-image {
+   margin-right: 20px; 
+}
+
+/* Selecting elements by ID */
+#main-analysis,
+#visualizations,
+#spacer,
+#weather-image {
+  float: left; */
+}  
+
+  /* Selecting elements by class */
+
+#container_main {
+  width: 1024px;
+  margin: 0 auto;
+} 
+
+.container_margin {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#figure {
+  position: relative;
+}
+
+#main-analysis {
+  width: 55%;
+  background-color: #282828;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+
+#visualizations {
+  /* position:relative; */
+  width: 40%;
+  background-color: #282828;
+  margin-top: 5%;
+   padding: 20px;
+  margin-left: 3%; 
+  
+
+}
+/* 
+#spacer {
+  width: 5%;
+  background-color: black;
+} */
+
+
+ 
+#vis_background {
+  /* position:relative; */
+  /* background-color: #282828 ;
+  /* margin-left: 15%; */
+} 
+
+/* Visualizations panel */
+.image-1 {
+  position: relative;
+  left: 50px;
+  height: 100px;
+
+}
+
+
+.image-2 {
+  position: relative;
+  left: 50px;
+  height: 100px;
+
+}
+
+.image-3 {
+  position: relative;
+  left: 50px;
+  top: 7px;
+  height: 100px;
+
+  
+}
+
+.image-4 {
+  position: relative;
+  left: 50px;
+  top: 7px;
+  height: 100px;
+
+  
+}
+
+#h3_visual {
+text-align: center;
+
+}
+.h5_comp {
+margin-top:20px;
+margin-bottom: 20px;
+text-align: center;
+
+}
+/* source: https://www.w3schools.com/howto/howto_css_image_center.asp */
+.image_center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.table_center {
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.background {
+background-color:#282828;
+
+}
+
+.padding_top {
+margin-top: 3%;
+}
+
+.bottom_margin {
+margin-bottom: 100px;
+}
+
+.padding,
+.h5_padding,
+.h2_padding {
+padding:2%;
+}
+
+.bottom_padding {
+  margin-bottom: 5%;
+}
+
+.border_img {
+  border: 3px solid #2a9fd6;
+}
+
+.line_space {
+  line-height: 200%;
+}
+
+.h2_bottom {
+  margin-bottom: 5%;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+
+.image-1 {
+  left: 15px;
+}
+
+.image-2 {
+  left: 15px;
+}
+
+.image-3 {
+  left: 15px;
+}
+
+.image-4 {
+  left: 15px;
+}
+
+}
+@media (max-width: 1000px) {
+
+
+  #main-analysis {
+    width: 100%;
+    background-color: #282828;
+    margin-top: 3%;
+    padding: 10px;
+
+  }
+
+  #visualizations {
+
+     width: 100%; 
+  
+    margin-left: 0%; 
+    
+    
+  
+  }
+
+  .image-1 {
+    position: relative;
+  
+    height: 75px;
+    left: 15%;
+  
+  }
+  
+  
+  .image-2 {
+    position: relative;
+    
+    height: 75px;
+    left: 15%;
+  
+  }
+  
+  .image-3 {
+    position: relative;
+    left: 15%;
+    top: 0px; 
+    height: 75px;
+  
+    
+  }
+  
+  .image-4 {
+    position: relative;
+    left: 15%;
+    top: 0px;
+    height: 75px;
+  
+    
+  }
+
+}
+
+@media (max-width: 770px) {
+
+  #visualizations {
+    /* position:relative; */
+     width: 100%; 
+    
+    padding: 5%;
+
+}
+
+.image-1 {
+  position: relative;
+
+  height: 75px;
+  left: 0%;
+
+}
+
+
+.image-2 {
+  position: relative;
+  
+  height: 75px;
+  left: 0%;
+
+}
+
+.image-3 {
+  position: relative;
+  left: 0%;
+  top: 0px; 
+  height: 75px;
+
+  
+}
+
+.image-4 {
+  position: relative;
+  left: 0%;
+  top: 0px;
+  height: 75px;
+
+  
+}
+}
+
+
+@media (max-width: 560px) {
+  
+
+.image-4 {
+  position: relative;
+  left: 117px;
+  top: 0px;
+  height: 75px;
+
+  
+}
+}
