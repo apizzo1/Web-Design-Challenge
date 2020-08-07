@@ -5,24 +5,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Max Temp</title>
+  <!-- bootstrap style.css file -->
   <link rel="stylesheet" href="bootstrap.css">
+  <!-- custom stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- navbar -->
-  <!-- source code from Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="../index.html">Latitude Study</a>
+  <!-- source code from Bootstrap (https://bootswatch.com/cyborg/)-->
+  <nav class="navbar navbar-expand-lg navbar-dark nav_color">
+    <a class="navbar-brand bg-primary nav_padding" href="../index.html">Latitude Study</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
       aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
+    <!-- navbar collapse info (from Bootstrap code) -->
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav ml-auto">
-
+        <!-- dropdown menu details -->
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
             aria-expanded="false">Plots</a>
@@ -32,7 +34,7 @@
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
         </li>
-
+        <!-- other navbar links -->
         <li class="nav-item">
           <a class="nav-link" href="comparisons.html">Comparisons</a>
         </li>
@@ -43,25 +45,28 @@
     </div>
   </nav>
 
-
+  <!-- format main section -->
   <main class="container">
     <section id="main-analysis">
-
-      <h2 class = "h2_bottom">Latitude vs. Max Temp</h2>
+      <!-- title for page -->
+      <h2 class="h2_bottom">Latitude vs. Max Temp</h2>
+      <!-- insert image -->
       <img class="image_center bottom_padding" src="Images/Max_Temp_vs_Latitude.png" alt="Max temp image">
-
-      <p class = "line_space">Latitude versus maximum temperature: The code analyzes the span of latitudes and what the maximum temperatures
+      <!-- describe plot -->
+      <p class="line_space">Latitude versus maximum temperature: The code analyzes the span of latitudes and what the
+        maximum temperatures
         are for each location. As can be seen, the range of locations is between -60 degress latitude and +80 degrees
         latitude. As you get closer to 0 degrees latitude (the Equator), temperatures increase, as expected.</p>
     </section>
-
   </main>
-  <main class="container">
 
+  <!-- format visualizations sidebar -->
+  <div class="container">
     <section id="visualizations">
       <section id="figure">
+        <!-- title sidebar -->
         <h4>Visualizations</h4>
-
+        <!-- insert all sidebar pictures and links -->
         <a href="max_temp.html">
           <img class="image-1 border_img" src="Images/Max_Temp_vs_Latitude.png" alt="Max Temp picture">
         </a>
@@ -76,7 +81,7 @@
         </a>
       </section>
     </section>
-  </main>
+  </div>
 
   <!-- needed to allow navbar functionality -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

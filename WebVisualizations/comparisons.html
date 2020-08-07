@@ -5,22 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comparisons</title>
+    <!-- bootstrap style.css file -->
     <link rel="stylesheet" href="bootstrap.css">
+    <!-- custom stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- navbar: code from Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="../index.html">Latitude Study</a>
+    <!-- navbar: code from Bootstrap (https://bootswatch.com/cyborg/)-->
+    <nav class="navbar navbar-expand-lg navbar-dark nav_color">
+        <a class="navbar-brand bg-primary nav_padding" href="../index.html">Latitude Study</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+        <!-- navbar collapse info (from Bootstrap code) -->
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav ml-auto">
-
+                <!-- dropdown menu details -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">Plots</a>
@@ -30,7 +32,7 @@
                         <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                         <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
                 </li>
-
+                <!-- other navbar links -->
                 <li class="nav-item active">
                     <a class="nav-link" href="comparisons.html">Comparisons</a>
                 </li>
@@ -41,7 +43,9 @@
         </div>
     </nav>
 
+    <!-- format main section -->
     <div class="container container_margin">
+        <!-- add title for page and subtitle -->
         <div class="row background">
             <h2 class="h2_padding">
                 Comparisons: Latitude vs. X
@@ -54,6 +58,8 @@
             </h5>
         </div>
 
+        <!-- create row with 2 columns  -->
+        <!-- add title for plots and images (with links) -->
         <div class="row background">
             <div class="col-md-6">
                 <h5 class="h5_comp">
@@ -72,7 +78,8 @@
                 </a>
             </div>
         </div>
-
+        <!-- create row with 2 columns  -->
+        <!-- add title for plots and images (with links) -->
         <div class="row background">
             <div class="col-md-6">
                 <h5 class="h5_comp">
@@ -91,6 +98,7 @@
                 </a>
             </div>
         </div>
+        <!-- add padding of background color under charts -->
         <div class="row background padding">
 
         </div>

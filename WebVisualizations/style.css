@@ -1,42 +1,13 @@
 /*
- First External CSS Stylesheet
+External CSS Stylesheet
  */
 
 /* Styling for HTML elements */
 
-
- /* Adding customizations */
- 
-.image_shrink {
-  height: 200px;
- 
-}
- #weather-image {
-   margin-right: 20px; 
-}
-
 /* Selecting elements by ID */
-#main-analysis,
-#visualizations,
-#spacer,
+
 #weather-image {
-  float: left; */
-}  
-
-  /* Selecting elements by class */
-
-#container_main {
-  width: 1024px;
-  margin: 0 auto;
-} 
-
-.container_margin {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-#figure {
-  position: relative;
+  margin-right: 20px; 
 }
 
 #main-analysis {
@@ -46,7 +17,6 @@
   padding: 10px;
 }
 
-
 #visualizations {
   /* position:relative; */
   width: 40%;
@@ -54,37 +24,55 @@
   margin-top: 5%;
    padding: 20px;
   margin-left: 3%; 
-  
-
 }
-/* 
-#spacer {
-  width: 5%;
-  background-color: black;
-} */
 
+#main-analysis,
+#visualizations,
+#weather-image {
+  float: left; 
+}  
 
- 
-#vis_background {
-  /* position:relative; */
-  /* background-color: #282828 ;
-  /* margin-left: 15%; */
+#figure {
+  position: relative;
+}
+
+#container_main {
+  width: 1024px;
+  margin: 0 auto;
 } 
+
+#h3_visual {
+  text-align: center;
+}
+
+#h1_center {
+  text-align: center;
+}
+
+  /* Selecting elements by class */
+
+
+.image_shrink {
+  height: 200px;
+}
+
+.container_margin {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 
 /* Visualizations panel */
 .image-1 {
   position: relative;
   left: 50px;
   height: 100px;
-
 }
-
 
 .image-2 {
   position: relative;
   left: 50px;
   height: 100px;
-
 }
 
 .image-3 {
@@ -92,8 +80,6 @@
   left: 50px;
   top: 7px;
   height: 100px;
-
-  
 }
 
 .image-4 {
@@ -101,20 +87,16 @@
   left: 50px;
   top: 7px;
   height: 100px;
-
-  
 }
 
-#h3_visual {
-text-align: center;
 
-}
 .h5_comp {
 margin-top:20px;
 margin-bottom: 20px;
 text-align: center;
-
 }
+
+/* centering image */
 /* source: https://www.w3schools.com/howto/howto_css_image_center.asp */
 .image_center {
 display: block;
@@ -122,15 +104,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* centering table */
 .table_center {
 margin-left: auto;
 margin-right: auto;
-
 }
 
 .background {
 background-color:#282828;
-
 }
 
 .padding_top {
@@ -139,6 +120,10 @@ margin-top: 3%;
 
 .bottom_margin {
 margin-bottom: 100px;
+}
+
+.nav_padding {
+  padding: 10px;
 }
 
 .padding,
@@ -151,24 +136,23 @@ padding:2%;
   margin-bottom: 5%;
 }
 
-.border_img {
-  border: 3px solid #2a9fd6;
-}
-
-.line_space {
-  line-height: 200%;
-}
-
 .h2_bottom {
   margin-bottom: 5%;
 }
 
-#h1_center {
-  text-align: center;
+/* making selected visualization "active" */
+.border_img {
+  border: 3px solid #2a9fd6;
+}
+
+/* spacing paragraph lines */
+.line_space {
+  line-height: 200%;
 }
 
 
-/* Media Queries */
+/* ************Media Queries************ */
+
 @media (max-width: 1200px) {
 
 .image-1 {
@@ -188,42 +172,40 @@ padding:2%;
 }
 
 }
+
 @media (max-width: 1000px) {
 
+  .nav_color {
+    background-color: #2a9fd6 !important;
+    border: 1px solid #282828;
+  }
+
+  .nav_padding {
+    padding: 0px;
+  }
 
   #main-analysis {
     width: 100%;
     background-color: #282828;
     margin-top: 3%;
     padding: 10px;
-
   }
 
   #visualizations {
-
-     width: 100%; 
-  
+    width: 100%; 
     margin-left: 0%; 
-    
-    
-  
   }
 
   .image-1 {
     position: relative;
-  
     height: 75px;
     left: 15%;
-  
   }
-  
   
   .image-2 {
     position: relative;
-    
     height: 75px;
     left: 15%;
-  
   }
   
   .image-3 {
@@ -231,8 +213,6 @@ padding:2%;
     left: 15%;
     top: 0px; 
     height: 75px;
-  
-    
   }
   
   .image-4 {
@@ -240,8 +220,6 @@ padding:2%;
     left: 15%;
     top: 0px;
     height: 75px;
-  
-    
   }
 
 }
@@ -250,28 +228,20 @@ padding:2%;
 @media (max-width: 770px) {
 
   #visualizations {
-    /* position:relative; */
      width: 100%; 
-    
     padding: 5%;
-
 }
 
 .image-1 {
   position: relative;
-
   height: 75px;
   left: 0%;
-
 }
-
 
 .image-2 {
   position: relative;
-  
   height: 75px;
   left: 0%;
-
 }
 
 .image-3 {
@@ -279,8 +249,6 @@ padding:2%;
   left: 0%;
   top: 0px; 
   height: 75px;
-
-  
 }
 
 .image-4 {
@@ -288,19 +256,30 @@ padding:2%;
   left: 0%;
   top: 0px;
   height: 75px;
-
-  
 }
+
 }
 
 /* extra small screens */
 @media (max-width: 555px) {
+
+
+.image-1 {
+  left: 35px;
+}
   
+.image-2 {
+  left: 35px;
+}
+  
+.image-3 {
+  left: 35px;
+}
+
 .image-4 {
-  position: relative;
-  left: 117px;
+  left: 152px;
   top: 10px;
-  height: 75px;
+  
 }
 
 }
