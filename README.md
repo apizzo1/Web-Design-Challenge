@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-For this challenge, my index.html is located in the root directory and all other files are located in the WebVisualizations directory (all other html files and images).
+For this challenge, my index.html is located in the root directory and all other files are located in the WebVisualizations directory (all other html files and images). This project is deployed here: https://apizzo1.github.io/Web-Design-Challenge/index.html
 
 I used a theme from Bootstrap (https://bootswatch.com/cyborg/). I used the code provided from Bootstrap to create my navbar - this code included collapsing the navbar as the screen size shrunk. I customized it so that on larger screens, the navbar is black, and when the screen is smaller, the navbar becomes blue. The links in the navbar are set to active when that particular link is selected.
 
